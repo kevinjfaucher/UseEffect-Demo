@@ -14,6 +14,7 @@ function Counter() {
     //We set the initial state of the state we are tracking.  (default value)
     const [count, setCount] = useState(0);
 
+    //Side effects are the result of a state changing
     //We are going to react to the count using a side effect using useEffect
     //The first part of useEffect is the actual code to be run found inside the {}
     //The dependency array [] tells react what it should listen to, to run the code in the {}
